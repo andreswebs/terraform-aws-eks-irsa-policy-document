@@ -53,7 +53,7 @@ No modules.
 |------|-------------|
 | <a name="output_json"></a> [json](#output\_json) | The IAM policy JSON contents |
 | <a name="output_k8s_sa_name"></a> [k8s\_sa\_name](#output\_k8s\_sa\_name) | Name of the Kubernetes service account |
-| <a name="output_k8s_sa_namespace"></a> [k8s\_sa\_namespace](#output\_k8s\_sa\_namespace) | Namespace of the Kubernetes service account |
+| <a name="output_k8s_sa_namespace"></a> [k8s\_sa\_namespace](#output\_k8s\_sa\_namespace) | Namespace of the Kubernetes namespace |
 | <a name="output_oidc_provider"></a> [oidc\_provider](#output\_oidc\_provider) | Cluster OIDC provider |
 
 [//]: # (END_TF_DOCS)
