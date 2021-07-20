@@ -5,6 +5,8 @@ content: |-
 
     ## Usage
 
+    Example:
+    
     ```hcl
     {{ include "examples/main.tf" }}
     ```

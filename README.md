@@ -16,6 +16,8 @@ aws eks describe-cluster \
 
 ## Usage
 
+Example:
+
 ```hcl
 module "k8s_assume_role_policy" {
   source                = "github.com/andreswebs/terraform-aws-eks-irsa-policy-document"
@@ -28,7 +30,6 @@ resource "aws_iam_role" "hyperapp" {
   name               = "hyperapp"
   assume_role_policy = module.k8s_assume_role_policy.json
 }
-
 ```
 
 
