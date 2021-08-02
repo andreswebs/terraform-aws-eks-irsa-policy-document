@@ -1,6 +1,6 @@
-[//]: # (BEGIN_TF_DOCS)
 # terraform-aws-eks-irsa-policy-document
 
+[//]: # (BEGIN_TF_DOCS)
 Creates a trust policy for an IAM role that can be assumed by
 a Kubernetes service account.
 
